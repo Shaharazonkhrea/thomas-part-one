@@ -1,0 +1,141 @@
+body {
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    background-color: #F2F2F2;
+    padding: 5px;
+    /* display: flex;  */
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.learn-to {
+    padding-left: 15px; 
+    color: #20a8b4;
+}
+
+.code {
+    color: #ff5c0f;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.nav-list li {
+    margin: 0 10px;
+    /* display: inline-block; */
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-list li a:hover {
+    color: #ff5c0f; 
+}
+
+
+.contact-button {
+    color: white;
+    display: block;
+    padding: 12px;
+    background-color: #20a8b4;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 100%; 
+}
+
+.container {
+    text-align: right;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: inline-block;
+    text-align: left;
+    flex: 1;
+    padding: 20px;
+    width: 50%;
+}
+
+.image {
+    display: none;
+    width: 200px; 
+    padding-left: 150px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    box-sizing: border-box;  
+}
+
+.code-pic {
+    display: block;
+    padding: 30px;
+    height: 400px;
+    width: 100%;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: flex-end;
+}
+
+.learn-to-code-question {
+    color: #ff5c0f;
+}
+
+button {
+    padding: 12px;
+    background-color: #20a8b4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%; 
+}
+
+button:hover {
+    background-color: #ff5c0f;
+}
+
+
+@media screen and (min-width: 768px) {
+    header {
+        display: flex;
+    }
+
+    .nav-list li {
+        display: inline-block;
+    }
+
+    .container {
+        flex-direction: row;
+    }
+
+    .content {
+        width: 50%; 
+    }
+
+    .contact-button {
+        width: auto; 
+    }
+
+    button {
+        width: auto;
+    }
+    
+    .image {
+        display: block; 
+        margin-top: 20px;
+        width: 50%; 
+    }
+}
